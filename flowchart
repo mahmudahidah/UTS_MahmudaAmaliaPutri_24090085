@@ -1,0 +1,57 @@
+# Program Operasi Matematika Dasar Berdasarkan Flowchart
+
+# Memasukkan nilai A
+A = float(input("Masukkan nilai A: "))
+
+# Memasukkan nilai B
+B = float(input("Masukkan nilai B: "))
+
+# Melakukan operasi matematika
+hasil_penjumlahan = A + B
+hasil_pengurangan = A - B
+hasil_perkalian = A * B
+
+# Menampilkan hasil dari masing-masing operasi
+print("Hasil A + B =", hasil_penjumlahan)
+print("Hasil A - B =", hasil_pengurangan)
+print("Hasil A * B =", hasil_perkalian)
+
+# Program selesai
+# Program Operasi Matematika Dasar Berdasarkan Flowchart
+
+# Memasukkan nilai A
+A = float(input("Masukkan nilai A: "))
+
+# Memasukkan nilai B
+B = float(input("Masukkan nilai B: "))
+
+# Melakukan operasi matematika
+hasil_penjumlahan = A + B
+hasil_pengurangan = A - B
+hasil_perkalian = A * B
+
+# Menampilkan hasil dari masing-masing operasi
+print("Hasil A + B =", hasil_penjumlahan)
+print("Hasil A - B =", hasil_pengurangan)
+print("Hasil A * B =", hasil_perkalian)
+
+# Program selesai
+# Program Operasi Matematika Dasar Berdasarkan Flowchart
+
+# Memasukkan nilai A
+A = float(input("Masukkan nilai A: "))
+
+# Memasukkan nilai B
+B = float(input("Masukkan nilai B: "))
+
+# Melakukan operasi matematika
+hasil_penjumlahan = A + B
+hasil_pengurangan = A - B
+hasil_perkalian = A * B
+
+# Menampilkan hasil dari masing-masing operasi
+print("Hasil A + B =", hasil_penjumlahan)
+print("Hasil A - B =", hasil_pengurangan)
+print("Hasil A * B =", hasil_perkalian)
+
+# Program selesai

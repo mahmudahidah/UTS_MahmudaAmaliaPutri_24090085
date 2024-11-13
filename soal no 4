@@ -1,0 +1,25 @@
+# Program Kalkulator Kesehatan BMI
+
+# Meminta input dari pengguna untuk berat dan tinggi badan
+berat_badan = float(input("Masukkan berat badan Anda (dalam kg): "))
+tinggi_badan = float(input("Masukkan tinggi badan Anda (dalam meter): "))
+
+# Menghitung BMI menggunakan rumus BMI = berat_badan / (tinggi_badan ** 2)
+BMI = berat_badan / (tinggi_badan ** 2)
+
+# Menampilkan hasil BMI
+print(f"\nIndeks Massa Tubuh (BMI) Anda adalah: {BMI:.2f}")
+
+# Memberikan rekomendasi berdasarkan nilai BMI
+if BMI < 18.5:
+    print("Anda berada dalam kategori berat badan kurang.")
+    print("Rekomendasi: Makan lebih banyak makanan bergizi dan seimbang.")
+elif 18.5 <= BMI < 24.9:
+    print("Anda berada dalam kategori berat badan normal.")
+    print("Rekomendasi: Pertahankan gaya hidup sehat Anda.")
+elif 25 <= BMI < 29.9:
+    print("Anda berada dalam kategori kelebihan berat badan.")
+    print("Rekomendasi: Pertimbangkan untuk meningkatkan aktivitas fisik dan mengatur pola makan.")
+else:
+    print("Anda berada dalam kategori obesitas.")
+    print("Rekomendasi: Konsultasikan dengan profesional kesehatan untuk mendapatkan saran yang tepat.")

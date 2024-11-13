@@ -1,0 +1,22 @@
+# Program menghitung total harga dari beberapa barang
+
+# Meminta pengguna untuk memasukkan jumlah barang
+jumlah_barang = int(input("Masukkan jumlah jenis barang: "))
+
+# Inisialisasi total harga
+total_harga = 0
+
+# Loop untuk setiap barang
+for i in range(jumlah_barang):
+    print(f"\nBarang ke-{i+1}")
+    # Meminta pengguna memasukkan jumlah satuan barang
+    jumlah_satuan = int(input("Masukkan jumlah satuan barang ini: "))
+    
+    # Meminta pengguna memasukkan harga satuan barang
+    harga_per_unit = float(input("Masukkan harga per satuan barang ini: "))
+    
+    # Menghitung total harga barang ini dan menambahkannya ke total keseluruhan
+    total_harga += jumlah_satuan * harga_per_unit
+
+# Menampilkan total harga belanjaan
+print(f"\nTotal harga belanjaan dari semua barang adalah: Rp{total_harga:.2f}")
